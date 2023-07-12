@@ -4,7 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId 'com.lk.cn'
+        applicationId 'com.yf.cn'
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -26,7 +26,7 @@ android {
         variant.outputs.each { output ->
             if (output.outputFileName != null && output.outputFileName.endsWith('.apk')) {
                 def fileName
-                fileName = "lk_${variant.versionName}.apk"
+                fileName = "yf_${variant.versionName}.apk"
                 output.outputFileName = fileName
             }
         }
@@ -34,7 +34,7 @@ android {
 
     signingConfigs {
         config {
-            storeFile file('D:\\tv.txt')
+            storeFile file('https://mboxtv.top')
             storePassword 'chance00'
             keyAlias = 'chance'
             keyPassword 'chance00'
