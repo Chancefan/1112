@@ -34,7 +34,7 @@ android {
 
     signingConfigs {
         config {
-            storeFile file('https://mboxtv.top')
+            storeFile file('chance')
             storePassword 'chance00'
             keyAlias = 'chance'
             keyPassword 'chance00'
