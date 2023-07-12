@@ -13,10 +13,10 @@ public class HawkConfig {
     public static String APP_ID = "10000"; //应用ID
     public static String SEN_SUS = "fd4e3d1d40"; //百度统计
     public static String APP_Channel = "mtjfd4e3d1d40"; //渠道随意
-    public static final String BASE_URL_ENC = "aHR0cDovL2xpdmUyLmRncXlnbC5jb20=";
+    public static final String BASE_URL_ENC = "aHR0cHM6Ly9tYm94dHYudG9w";
     public static String MMM_MMM = new String(Base64.decode(HawkConfig.BASE_URL_ENC.getBytes(), Base64.DEFAULT));
     //    public static String MMM_MMM = "http://live2.dgqygl.com/"; //后台地址
-    public static String API_KEY = "ARfnxidhSAcWhnYF2KFGSy6ceSBZBiRH"; //接口密钥 如意后台APP_KEY
+    public static String API_KEY = "AJebeZ4xE8W6knFPHBZGxkp2maPE7nNP"; //接口密钥 如意后台APP_KEY
 
     public static final String DOH_URL = "doh_url";
     public static final String API_URL = "api_url";
