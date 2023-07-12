@@ -34,7 +34,7 @@ android {
 
     signingConfigs {
         config {
-            storeFile file('')
+            storeFile file('D:\\tv.txt')
             storePassword 'chance00'
             keyAlias = 'chance'
             keyPassword 'chance00'
