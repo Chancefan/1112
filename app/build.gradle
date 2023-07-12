@@ -34,10 +34,10 @@ android {
 
     signingConfigs {
         config {
-            storeFile file('I:\\sujie520.jks')
-            storePassword 'sujie5201314'
-            keyAlias = 'sujie520'
-            keyPassword 'sujie5201314'
+            storeFile file('')
+            storePassword 'chance00'
+            keyAlias = 'chance'
+            keyPassword 'chance00'
         }
     }
 
